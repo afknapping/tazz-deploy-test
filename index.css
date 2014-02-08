@@ -1,0 +1,343 @@
+@import url(/bower_components/normalize-css/normalize.css);
+/* Prettier Links */
+/* line 3, ../bower_components/mrmrs-colors/sass/_links.scss */
+a {
+  transition: color .3s ease-in-out;
+}
+
+/* line 7, ../bower_components/mrmrs-colors/sass/_links.scss */
+a:link {
+  color: #0074d9;
+}
+
+/* line 8, ../bower_components/mrmrs-colors/sass/_links.scss */
+a:visited {
+  color: #b10dc9;
+}
+
+/* line 9, ../bower_components/mrmrs-colors/sass/_links.scss */
+a:hover {
+  color: #7fdbff;
+}
+
+/* line 10, ../bower_components/mrmrs-colors/sass/_links.scss */
+a:active {
+  color: #ff851b;
+}
+
+/* line 45, ../src/assets/stylesheets/_library.sass */
+.mrsmr-colors, .lib {
+  opacity: 1;
+}
+/* line 33, ../src/assets/stylesheets/_library.sass */
+.mrsmr-colors.ng-enter.ng-enter-active, .mrsmr-colors.ng-hide-remove, .mrsmr-colors.ng-hide-add, .mrsmr-colors.ng-leave, .lib.ng-enter.ng-enter-active, .lib.ng-hide-remove, .lib.ng-hide-add, .lib.ng-leave {
+  opacity: 1;
+  transition: 0.5s ease all;
+  display: block !important;
+}
+/* line 39, ../src/assets/stylesheets/_library.sass */
+.mrsmr-colors.ng-enter, .mrsmr-colors.ng-hide, .mrsmr-colors.ng-leave.ng-leave-active, .lib.ng-enter, .lib.ng-hide, .lib.ng-leave.ng-leave-active {
+  opacity: 0;
+  transition: 0.5s ease all;
+}
+
+/* line 55, ../src/assets/stylesheets/_library.sass */
+.mrsmr-colors {
+  padding: 1em;
+  margin: 0 1em 1em 0;
+  font-size: 10px;
+  display: inline-block;
+  width: 4em;
+  text-align: center;
+}
+
+/* line 127, ../src/assets/stylesheets/_library.sass */
+.navy {
+  background-color: #001f3f;
+  color: white;
+  border: 1px solid white;
+}
+
+/* line 129, ../src/assets/stylesheets/_library.sass */
+.blue {
+  background-color: #0074d9;
+  color: #111111;
+  border: 1px solid #111111;
+}
+
+/* line 131, ../src/assets/stylesheets/_library.sass */
+.aqua {
+  background-color: #7fdbff;
+  color: #111111;
+  border: 1px solid #111111;
+}
+
+/* line 133, ../src/assets/stylesheets/_library.sass */
+.teal {
+  background-color: #39cccc;
+  color: #111111;
+  border: 1px solid #111111;
+}
+
+/* line 135, ../src/assets/stylesheets/_library.sass */
+.olive {
+  background-color: #3d9970;
+  color: #111111;
+  border: 1px solid #111111;
+}
+
+/* line 137, ../src/assets/stylesheets/_library.sass */
+.green {
+  background-color: #2ecc40;
+  color: #111111;
+  border: 1px solid #111111;
+}
+
+/* line 139, ../src/assets/stylesheets/_library.sass */
+.lime {
+  background-color: #01ff70;
+  color: #111111;
+  border: 1px solid #111111;
+}
+
+/* line 141, ../src/assets/stylesheets/_library.sass */
+.yellow {
+  background-color: #ffdc00;
+  color: #111111;
+  border: 1px solid #111111;
+}
+
+/* line 143, ../src/assets/stylesheets/_library.sass */
+.orange {
+  background-color: #ff851b;
+  color: white;
+  border: 1px solid white;
+}
+
+/* line 145, ../src/assets/stylesheets/_library.sass */
+.red {
+  background-color: #ff4136;
+  color: white;
+  border: 1px solid white;
+}
+
+/* line 147, ../src/assets/stylesheets/_library.sass */
+.maroon {
+  background-color: #85144b;
+  color: white;
+  border: 1px solid white;
+}
+
+/* line 149, ../src/assets/stylesheets/_library.sass */
+.fuchsia {
+  background-color: #f012be;
+  color: white;
+  border: 1px solid white;
+}
+
+/* line 151, ../src/assets/stylesheets/_library.sass */
+.purple {
+  background-color: #b10dc9;
+  color: white;
+  border: 1px solid white;
+}
+
+/* line 153, ../src/assets/stylesheets/_library.sass */
+.white {
+  background-color: white;
+  color: #111111;
+  border: 1px solid #111111;
+}
+
+/* line 155, ../src/assets/stylesheets/_library.sass */
+.silver {
+  background-color: #dddddd;
+  color: #111111;
+  border: 1px solid #111111;
+}
+
+/* line 157, ../src/assets/stylesheets/_library.sass */
+.gray {
+  background-color: #aaaaaa;
+  color: #111111;
+  border: 1px solid #111111;
+}
+
+/* line 159, ../src/assets/stylesheets/_library.sass */
+.black {
+  background-color: #111111;
+  color: white;
+  border: 1px solid white;
+}
+
+/* line 1, ../src/assets/stylesheets/_tazz.sass */
+.tazz-footer {
+  margin-top: 3em;
+  padding-top: 1em;
+  border-top: 1px solid #aaaaaa;
+}
+
+/* line 5, ../src/assets/stylesheets/_tazz.sass */
+.btn {
+  background: none repeat scroll 0 0 transparent;
+  border: medium none;
+  border-spacing: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.4;
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0;
+  background-color: #85144b;
+  color: white;
+  border: 1px solid white;
+  margin: 0 1em 1em 0;
+  padding: 0.5em;
+  border-radius: 0.5em;
+}
+
+/* line 11, ../src/assets/stylesheets/_tazz.sass */
+a {
+  text-decoration: underline;
+}
+
+/* line 14, ../src/assets/stylesheets/_tazz.sass */
+*:first-child {
+  margin-top: 0;
+}
+
+/* line 17, ../src/assets/stylesheets/_tazz.sass */
+.lib {
+  margin-top: 3em;
+}
+
+/* line 22, ../src/assets/stylesheets/_tazz.sass */
+.delete-thing {
+  background: none repeat scroll 0 0 transparent;
+  border: medium none;
+  border-spacing: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.4;
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0;
+  background-color: #ff4136;
+  color: white;
+  border: 1px solid white;
+  font-size: 10px;
+  margin: 0 0.3em 0 0;
+  padding: 0 0.3em;
+  border-radius: 0.2em;
+  position: relative;
+  top: -0.3em;
+}
+
+/* line 31, ../src/assets/stylesheets/_tazz.sass */
+.thing {
+  opacity: 1;
+}
+/* line 33, ../src/assets/stylesheets/_library.sass */
+.thing.ng-enter.ng-enter-active, .thing.ng-hide-remove, .thing.ng-hide-add, .thing.ng-leave {
+  opacity: 1;
+  transition: 0.5s ease all;
+  display: block !important;
+}
+/* line 39, ../src/assets/stylesheets/_library.sass */
+.thing.ng-enter, .thing.ng-hide, .thing.ng-leave.ng-leave-active {
+  opacity: 0;
+  transition: 0.5s ease all;
+}
+
+/* line 37, ../src/assets/stylesheets/_tazz.sass */
+.add-new-thing {
+  margin-left: 1em;
+}
+
+/* line 1, ../src/assets/stylesheets/_app.sass */
+.app {
+  background-color: white;
+  color: #111111;
+  border: 1px solid #111111;
+  padding: 2em;
+}
+
+/* line 14, ../src/assets/stylesheets/index.sass */
+[ng-click], [data-ng-click], [x-ng-click] {
+  cursor: pointer;
+}
+
+/* line 19, ../src/assets/stylesheets/index.sass */
+body {
+  background-color: #dddddd;
+  padding: 2em;
+}
+
+/* line 23, ../src/assets/stylesheets/index.sass */
+.title, .main, .sub, .settings {
+  padding: 0.5em;
+}
+
+/* line 26, ../src/assets/stylesheets/index.sass */
+.title {
+  background-color: #ffdc00;
+}
+
+/* line 28, ../src/assets/stylesheets/index.sass */
+.main {
+  background-color: #ff851b;
+}
+
+/* line 30, ../src/assets/stylesheets/index.sass */
+.sub {
+  background-color: #ff4136;
+}
+
+/* line 34, ../src/assets/stylesheets/index.sass */
+.settings {
+  background-color: #f012be;
+  height: 250px;
+  padding: 10px;
+  border: 1px solid black;
+  height: 250px;
+  overflow: hidden;
+}
+/* line 41, ../src/assets/stylesheets/index.sass */
+.settings.ng-hide-add, .settings.ng-hide-remove {
+  transition: all ease 0.3s;
+}
+/* line 44, ../src/assets/stylesheets/index.sass */
+.settings.ng-hide-add.ng-hide-add-active, .settings.ng-hide-remove {
+  opacity: 0;
+  height: 0;
+  display: block !important;
+}
+/* line 48, ../src/assets/stylesheets/index.sass */
+.settings.ng-hide-add, .settings.ng-hide-remove.ng-hide-remove-active {
+  opacity: 1;
+  height: 250px;
+}
+
+/* line 52, ../src/assets/stylesheets/index.sass */
+.icon {
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+/* line 56, ../src/assets/stylesheets/index.sass */
+.red {
+  background-color: red;
+}
+
+/* line 59, ../src/assets/stylesheets/index.sass */
+.green {
+  background-color: green;
+}

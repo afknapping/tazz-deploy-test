@@ -1,0 +1,76 @@
+<div ng-model="tazz" class="lib"><h2>Library</h2>
+
+<p>This library is a micro Angular app where you can check out some very basic beginner stuff to get started, like:</p>
+
+<ul>
+<li>Controllers</li>
+<li>Models</li>
+<li>Directives</li>
+<li>HTTP Requests</li>
+<li>Local Storage DB</li>
+<li>iteration</li>
+<li>conditional rendering</li>
+<li>Transistions</li>
+<li>Adding and removing data</li>
+</ul>
+
+<p>See the source code to learn how it works.</p>
+
+<p>Following are some basic styles so you can make your thing look not sucky. Everything is available as mixins, which are fast to write. Again, see the .sass files to see how they are built.</p>
+
+<h3>Colors</h3><span ng-repeat="color in tazz.colors" ng-class="'{{ color }}'" class="mrsmr-colors">{{ color }}</span><p>You can use these <a href="http://clrs.cc/">colors</a> as mixins like <code>+olive</code> or <code>+fuchsia</code>. They define background, text and border colors.</p>
+
+<h3>Basic margins and paddings</h3>
+
+<h3>Shape</h3>
+
+<ul>
+<li>rounded corners</li>
+<li>circles</li>
+</ul>
+
+<h3>Effects</h3>
+
+<ul>
+<li>text-shadow</li>
+<li>box-shadow</li>
+<li>lite emboss</li>
+<li>lite background noise</li>
+</ul>
+
+<h3>Transitions</h3>
+
+<p>Transitions in Angular are fully CSS3. It's just a bit tricky to understand what classes are applied when and were the <code>transition</code> properties need to be set. Recommended reading are <a href="http://www.yearofmoo.com/2013/08/remastered-animation-in-angularjs-1-2.html#how-to-make-animations-in-angularjs">Remastered Animation in AngularJS 1.2</a> and <a href="http://docs.angularjs.org/api/ngAnimate">the offical docs for ngAnimate</a>.</p>
+
+<p>There are two mixins and a standard transition provided from this library. Call them like this:</p>
+
+<pre><code>  +revealTo
+    opacity: 1
+  +revealFrom
+    opacity: 0
+</code></pre>
+
+<p>Or specify custom transitions on call and animate multiple attributes at once:</p>
+
+<pre><code>  +revealTo(1s linear all)
+    opacity: 1
+    background-color: red
+  +revealFrom(2s bicubic all)
+    opacity: 0
+    background-color: yellow
+</code></pre>
+
+<h3>Standard UI Elements</h3>
+
+<ul>
+<li>Buttons</li>
+<li>Forms</li>
+<li>Checkboxes</li>
+<li>Dropdowns</li>
+</ul>
+
+<h3>Markdown Elements</h3>
+
+<ul>
+<li>H1 - H6, p, pre/code, img, ul, ol, hr</li>
+</ul></div>
