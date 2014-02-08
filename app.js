@@ -7,7 +7,7 @@ tazz.controller('TazzCtrl', function ($scope, $http, storage) {
 
   $scope.data = {};
   $scope.getAppData = function() {
-    $http.get('/data/data.json')
+    $http.get('data/data.json')
       .then(function(res){
         $scope.data = res.data;
         console.log('yo');
@@ -28,7 +28,7 @@ tazz.controller('TazzCtrl', function ($scope, $http, storage) {
 
   $scope.world = 'Tazz';
   $scope.getTazzLibrary = function() {
-    $http.get('/data/tazz.json')
+    $http.get('data/tazz.json')
       .then(function(res){
         $scope.tazz = res.data;
         console.log('yo');
