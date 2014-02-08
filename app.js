@@ -41,7 +41,7 @@ tazz.controller('TazzCtrl', function ($scope, $http, storage) {
     return {
       restrict: 'E',
       replace: true,
-      templateUrl: '/templates/lib.html'
+      templateUrl: 'templates/lib.html'
     };
 })
 
@@ -49,6 +49,6 @@ tazz.controller('TazzCtrl', function ($scope, $http, storage) {
     return {
       restrict: 'E',
       replace: true,
-      templateUrl: '/app.html'
+      templateUrl: 'app.html'
     };
 })
